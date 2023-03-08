@@ -48,6 +48,12 @@
           "Bitbucket",
           "Status Hero",
           "GIMP"
+        ],
+        "points": [
+          "Spearhead development of requested features and technologies for cash vault management software using Java, libraries, and frameworks such as Twilio and Vaadin, in an SOC 2 certified work environment.",
+          "Provide full technical support by communicating with customers and diagnosing issues using remote access software to improve customer satisfaction.",
+          "Onboard and train newly hired graduates using resources and documents I created during my learning period to create a pleasant and proficient working environment.",
+          "Organize and track software development through daily meetings and tools such as Jira and Status Hero to maximize productivity."
         ]
       },
       {
@@ -66,6 +72,10 @@
           "EF Core",
           "MSSQL",
           "Trello"
+        ],
+        "points": [
+          "Built a web application using C#, ASP.NET Core, MSSQL, and JavaScript to meet a need of the intended target market.",
+          "Translated usage requirements into software development goals and projects in cooperation with company leader in order to streamline and accelerate development."
         ]
       }
     ]
