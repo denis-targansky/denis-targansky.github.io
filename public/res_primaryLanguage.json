@@ -1,0 +1,72 @@
+{
+    "basic_info": {
+      "description_header": "Hello!",
+      "description": "I'm Denis Targansky, and the rest is currently a mystery (don't worry, this will get expanded soon, hang tight!).",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "",
+        "startDate": "",
+        "description": "",
+        "images": [
+          "images/portfolio/test/test.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "NamSys Inc.",
+        "title": "Senior Full-Stack Developer",
+        "years": "March 2018 - Present",
+        "techIcon": "devicon-java-plain",
+        "mainTech": [
+          "Java 8"
+        ],
+        "technologies": [
+          "Java",
+          "AWS",
+          "Vaadin",
+          "REST API",
+          "Twilio",
+          "MSSQL",
+          "MySQL",
+          "SOC 2",
+          "Jira",
+          "Bitbucket",
+          "Status Hero",
+          "GIMP"
+        ]
+      },
+      {
+        "company": "PrimeTree",
+        "title": "Lead Software Developer",
+        "years": "Feb 2017 - March 2018",
+        "techIcon": "devicon-csharp-plain",
+        "mainTech": [
+          "C#"
+        ],
+        "technologies": [
+          "C#",
+          ".NET MVC Core",
+          "JavaScript",
+          "Bootstrap",
+          "EF Core",
+          "MSSQL",
+          "Trello"
+        ]
+      }
+    ]
+  }
