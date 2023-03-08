@@ -42,20 +42,6 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span>
-              <img
-                height="100px"
-                src={logo}
-                alt="Logo placeholder"
-              />
-              </span>
-              <br/>
-              <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
-              </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
-              </div>
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
@@ -96,6 +82,16 @@ class Header extends Component {
                 }
                 id="icon-switch"
               />
+              <br/>
+              <br/>
+              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <br/>
+              <h1 className="mb-0">
+                <Typical steps={[name]} wrapper="p" />
+              </h1>
+              <div className="title-container">
+                <HeaderTitleTypeAnimation />
+              </div>
             </div>
           </div>
         </div>

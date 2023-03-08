@@ -23,11 +23,7 @@ class App extends Component {
     /* This doesn't currently apply as the portfolio is only in English for now
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     */
-    document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+    var resumePath = `res_primaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
@@ -87,43 +83,38 @@ class App extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
-        {/* This doesn't currently apply as the portfolio is only in English for now
 
         <div className="col-md-12 mx-auto text-center language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
+          <h1 className="section-title" style={{ color: "black" }}>
+            <span style={{ textAlign: "center" }}>
+              Languages
+            </span>
+          </h1>
+          <div style={{ display: "inline" }}>
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="twemoji-flag-for-flag-canada"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
           </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
+          <div style={{ display: "inline" }}>
             <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-???"
+              className="iconify language-icon mr-5"
+              data-icon="twemoji-flag-for-flag-israel"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
           </div>
+          <div style={{ display: "inline" }}>
+            <span
+              className="iconify language-icon"
+              data-icon="twemoji-flag-for-flag-russia"
+              data-inline="false"
+              id={window.$tertiaryLanguageIconId}
+            ></span>
+          </div>
         </div>
-        */}
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
