@@ -1,12 +1,16 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import icon2 from "@iconify/icons-logos/aws";
-import icon3 from "@iconify/icons-logos/vaadin";
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+        return (
+            <a key={network.name} className="m-4" href={network.url} target="_blank" rel="noopener noreferrer">
+              <i className={network.class}></i>
+            </a>
+        );
+      });
     }
     if (this.props.languageBasicInfo) {
       var sectionName = this.props.languageBasicInfo.section_name.about;
@@ -20,15 +24,16 @@ class About extends Component {
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
+          <div className="row center mx-auto mb-3">
+            <div className="col-md-2 mb-3 center">
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="400px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
+                  <div className="social-links">{networks}</div>
                 </span>
               </div>
             </div>

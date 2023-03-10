@@ -14,7 +14,7 @@
   "skills": {
     "sections": [
       {
-        "sectionName": "Languages",
+        "sectionName": "שפות",
         "icons": [
           {
             "name": "Java",
@@ -34,7 +34,7 @@
         ]
       },
       {
-        "sectionName": "Services",
+        "sectionName": "שירותים",
         "icons": [
           {
             "name": "AWS",
@@ -53,13 +53,13 @@
           },
           {
             "name": "Status Hero",
-            "class": "devicon-bitbucket-original",
+            "img": "status-hero-logo.png",
             "level": "90"
           }
         ]
       },
       {
-        "sectionName": "Tools",
+        "sectionName": "כלים",
         "icons": [
           {
             "name": "GitHub",
@@ -79,22 +79,32 @@
         ]
       },
       {
-        "sectionName": "Databases",
+        "sectionName": "מאגרי מידע",
         "icons": [
           {
             "name": "MySQL",
             "class": "devicon-mysql-plain",
             "level": "80"
+          },
+          {
+            "name": "MSSQL",
+            "img": "microsoft-sql-logo.png",
+            "level": "80"
           }
         ]
       },
       {
-        "sectionName": "Frameworks",
+        "sectionName": "מסגרות",
         "icons": [
           {
             "name": "Vaadin",
-            "class": "fa-brands fa-vaadin",
+            "class": "fab fa-vaadin",
             "level": "80"
+          },
+          {
+            "name": "ASP.NET MVC Core",
+            "img": "aspnet-mvn-core-logo.png",
+            "level": "60"
           },
           {
             "name": "React",

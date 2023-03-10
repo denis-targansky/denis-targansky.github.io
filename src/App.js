@@ -78,7 +78,7 @@ class App extends Component {
           languageExperience={this.state.languageData.experience}
           languageBasicInfo={this.state.languageData.basic_info}
         />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        <Footer languageBasicInfo={this.state.languageData.basic_info} />
       </div>
     );
   }
