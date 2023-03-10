@@ -1,6 +1,5 @@
 {
     "basic_info": {
-      "name": "Denis Targansky",
       "titles": [ "Senior Full-Stack Developer", "FinTech", "Java", "SQL", "AWS", "REST API", "Vaadin", "C#", "Vaadin", "Bitbucket", "Status Hero", "Agile" ],
       "social": [
         {
@@ -16,59 +15,5 @@
       ],
       "image": "myProfile.jpg",
       "logo": "logo.png"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "100"
-        },
-        {
-          "name": "Jira",
-          "class": "devicon-jira-plain",
-          "level": "95"
-        },
-        {
-          "name": "GitHub",
-          "class": "devicon-github-original",
-          "level": "90"
-        },
-        {
-          "name": "Apache",
-          "class": "devicon-apache-plain",
-          "level": "90"
-        },
-        {
-          "name": "Bitbucket",
-          "class": "devicon-bitbucket-original",
-          "level": "90"
-        },
-        {
-          "name": "GIMP",
-          "class": "devicon-gimp-plain",
-          "level": "80"
-        },
-        {
-          "name": "MySQL",
-          "class": "devicon-mysql-plain",
-          "level": "80"
-        },
-        {
-          "name": "AWS",
-          "class": "devicon-amazonwebservices-plain",
-          "level": "75"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "60"
-        }
-      ]
     }
   }
