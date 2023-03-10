@@ -8,9 +8,9 @@ import Badge from "react-bootstrap/Badge";
 
 class Experience extends Component {
   render() {
-    if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
+    if (this.props.languageExperience && this.props.languageBasicInfo) {
+      var sectionName = this.props.languageBasicInfo.section_name.experience;
+      var work = this.props.languageExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
         const points = work.points;
@@ -31,7 +31,7 @@ class Experience extends Component {
         });
         var point = points.map((point, i) => {
           return (
-            <li class="point-item" key={i}>{point}</li>
+            <li className="point-item" key={i}>{point}</li>
           )
         });
         return (
@@ -70,7 +70,7 @@ class Experience extends Component {
     }
 
     return (
-      <section id="resume" className="pb-5">
+      <section id="language" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>

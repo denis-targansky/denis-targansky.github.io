@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import icon1 from "@iconify/icons-logos/java";
 import icon2 from "@iconify/icons-logos/aws";
 import icon3 from "@iconify/icons-logos/vaadin";
 
@@ -9,10 +8,10 @@ class About extends Component {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
-    if (this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
+    if (this.props.languageBasicInfo) {
+      var sectionName = this.props.languageBasicInfo.section_name.about;
+      var hello = this.props.languageBasicInfo.description_header;
+      var about = this.props.languageBasicInfo.description;
     }
 
     return (
@@ -29,18 +28,6 @@ class About extends Component {
                     height="250px"
                     src={profilepic}
                     alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={icon1}
-                    style={{ fontSize: "400%", margin: "9% 4% 4% 4%" }}
-                  />
-                  <Icon
-                    icon={icon2}
-                    style={{ fontSize: "250%", margin: "9% 4% 0 4%" }}
-                  />
-                  <Icon
-                    icon={icon3}
-                    style={{ fontSize: "175%", margin: "9% 4% 0 4%" }}
                   />
                 </span>
               </div>
@@ -72,7 +59,7 @@ class About extends Component {
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
+                      fontSize: "170%",
                       lineHeight: "200%",
                     }}
                   >
