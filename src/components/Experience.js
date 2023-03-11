@@ -50,18 +50,18 @@ class Experience extends Component {
               {mainTech}
             </div>
 
-            <h3
+            <h1
               className="vertical-timeline-element-title"
               style={{ textAlign: "left" }}
             >
               {work.title}
-            </h3>
-            <h4
+            </h1>
+            <h2
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
               {work.company}
-            </h4>
+            </h2>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{point}</div>
           </VerticalTimelineElement>

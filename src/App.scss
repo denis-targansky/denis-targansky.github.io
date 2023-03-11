@@ -232,7 +232,7 @@ header h1 {
 }
 
 .main-badge {
-	font-size: 13px !important;
+	font-size: 16px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
@@ -243,7 +243,7 @@ header h1 {
 }
 
 .experience-badge {
-	font-size: 11px !important;
+	font-size: 14px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
@@ -251,6 +251,11 @@ header h1 {
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.point-item {
+	font-size: 14px;
+	margin-top: 1em;
 }
 
 .vertical-timeline-element-date {
@@ -443,9 +448,4 @@ footer a:focus {
 
 .social-links i {
 	color: black;
-}
-
-.point-item {
-	font-size: 125%;
-	margin-top: 1em;
 }
