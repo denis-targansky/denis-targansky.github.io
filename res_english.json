@@ -1,0 +1,188 @@
+{
+    "basic_info": {
+      "name": "Denis Targansky",
+      "description_header": "Hello!",
+      "description": "My name is Denis Targansky, and I'm a senior full-stack Java developer with experience in AWS, Vaadin, Jira, and Bitbucket. I have years of experience in developing scalable and high-performance web and client/server applications, with a proven track record of delivering complex projects on time and within budget. When not coding, you may find me playing volleyball or sitting down for a game of Dungeons and Dragons with friends. I am also an avid 3D printing enthusiast and love exploring the latest innovations in the tech world. As a dedicated professional, I am always looking to stay ahead of the curve in the ever-evolving tech industry. I am committed to staying up-to-date on the latest technologies and best practices to provide the best solutions for my clients. Whether working solo or as part of a team, I can bring a wealth of knowledge and experience to every project I undertake.",
+      "section_name": {
+        "language": "Languages",
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "skills": {
+      "sections": [
+        {
+          "sectionName": "Programming Languages",
+          "icons": [
+            {
+              "name": "Java",
+              "class": "devicon-java-plain",
+              "level": "100"
+            },
+            {
+              "name": "C#",
+              "class": "devicon-csharp-plain",
+              "level": "65"
+            },
+            {
+              "name": "JavaScript",
+              "class": "devicon-javascript-plain",
+              "level": "60"
+            }
+          ]
+        },
+        {
+          "sectionName": "Services",
+          "icons": [
+            {
+              "name": "AWS",
+              "class": "devicon-amazonwebservices-plain",
+              "level": "75"
+            },
+            {
+              "name": "Jira",
+              "class": "devicon-jira-plain",
+              "level": "95"
+            },
+            {
+              "name": "Bitbucket",
+              "class": "devicon-bitbucket-original",
+              "level": "90"
+            },
+            {
+              "name": "Status Hero",
+              "img": "status-hero-logo.png",
+              "level": "90"
+            }
+          ]
+        },
+        {
+          "sectionName": "Tools",
+          "icons": [
+            {
+              "name": "GitHub",
+              "class": "devicon-github-original",
+              "level": "90"
+            },
+            {
+              "name": "Apache",
+              "class": "devicon-apache-plain",
+              "level": "90"
+            },
+            {
+              "name": "GIMP",
+              "class": "devicon-gimp-plain",
+              "level": "80"
+            }
+          ]
+        },
+        {
+          "sectionName": "Databases",
+          "icons": [
+            {
+              "name": "MySQL",
+              "class": "devicon-mysql-plain",
+              "level": "80"
+            },
+            {
+              "name": "MSSQL",
+              "img": "microsoft-sql-logo.png",
+              "level": "80"
+            }
+          ]
+        },
+        {
+          "sectionName": "Frameworks",
+          "icons": [
+            {
+              "name": "Vaadin",
+              "class": "fab fa-vaadin",
+              "level": "80"
+            },
+            {
+              "name": "ASP.NET MVC Core",
+              "img": "aspnet-mvn-core-logo.png",
+              "level": "60"
+            },
+            {
+              "name": "React",
+              "class": "devicon-react-original",
+              "level": "40"
+            }
+          ]
+        }
+      ]
+    },
+    "projects": [
+      {
+        "title": "",
+        "startDate": "",
+        "description": "",
+        "images": [
+          "images/portfolio/test/test.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "NamSys Inc. | March 2018 - Present",
+        "title": "Senior Full-Stack Developer",
+        "years": "",
+        "techIcon": "devicon-java-plain",
+        "mainTech": [
+          "Java 8"
+        ],
+        "technologies": [
+          "Java",
+          "AWS",
+          "Vaadin",
+          "REST API",
+          "Twilio",
+          "MSSQL",
+          "MySQL",
+          "SOC 2",
+          "Jira",
+          "Bitbucket",
+          "Status Hero",
+          "GIMP"
+        ],
+        "points": [
+          "Spearhead development of requested features and technologies for cash vault management software using Java, libraries, and frameworks such as Twilio and Vaadin, in an SOC 2 certified work environment.",
+          "Provide full technical support by communicating with customers and diagnosing issues using remote access software to improve customer satisfaction.",
+          "Onboard and train newly hired graduates using resources and documents I created during my learning period to create a pleasant and proficient working environment.",
+          "Organize and track software development through daily meetings and tools such as Jira and Status Hero to maximize productivity."
+        ]
+      },
+      {
+        "company": "PrimeTree | Feb 2017 - March 2018",
+        "title": "Lead Software Developer",
+        "years": "",
+        "techIcon": "devicon-csharp-plain",
+        "mainTech": [
+          "C#"
+        ],
+        "technologies": [
+          "C#",
+          ".NET MVC Core",
+          "JavaScript",
+          "Bootstrap",
+          "EF Core",
+          "MSSQL",
+          "Trello"
+        ],
+        "points": [
+          "Built a web application using C#, ASP.NET Core, MSSQL, and JavaScript to meet a need of the intended target market.",
+          "Translated usage requirements into software development goals and projects in cooperation with company leader in order to streamline and accelerate development."
+        ]
+      }
+    ]
+  }

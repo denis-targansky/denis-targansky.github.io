@@ -1,0 +1,188 @@
+{
+  "basic_info": {
+    "name": "דניס טרגנסקי",
+    "description_header": "שלום!",
+    "description": "שמי דניס טרגנסקי, ואני מפתח Java בכיר עם ניסיון ב-AWS, Vaadin, Jira ו-Bitbucket. יש לי ניסיון של שנים בפיתוח יישומי אינטרנט ואפליקציות ניתנות להרחבה וביצועים גבוהים, עם רקורד מוכח של השלמת פרויקטים מורכבים בזמן ובמסגרת התקציב. כשאני לא מקודד, אני בדרך כלל משחק כדורעף או מדפיס משהו שימושי במדספות התלת מימדיות שלי. אני אוהב לחקור את החידושים האחרונים בעולם הטכנולוגיה, ואני תמיד מחפש דרכים לקדם את עצמי בתעשיית הטכנולוגיה המתפתחת ללא הרף. אני תמיד נשאר מעודכן בטכנולוגיות החדישות ביותר ובשיטות העבודה המומלצות כדי לספק את הפתרונות הטובים ביותר עבור הלקוחות שלי. בין אם אני עובד לבדי או כחלק מצוות, אני יכול להביא שפע של ידע וניסיון לכל פרויקט שאני לוקח על עצמי.",
+    "section_name": {
+      "language": "שפות",
+      "about": "עליי",
+      "projects": "פרויקטים",
+      "skills": "מיומנויות",
+      "experience": "ניסיון"
+    }
+  },
+  "skills": {
+    "sections": [
+      {
+        "sectionName": "שפות תכנות",
+        "icons": [
+          {
+            "name": "Java",
+            "class": "devicon-java-plain",
+            "level": "100"
+          },
+          {
+            "name": "C#",
+            "class": "devicon-csharp-plain",
+            "level": "65"
+          },
+          {
+            "name": "JavaScript",
+            "class": "devicon-javascript-plain",
+            "level": "60"
+          }
+        ]
+      },
+      {
+        "sectionName": "שירותים",
+        "icons": [
+          {
+            "name": "AWS",
+            "class": "devicon-amazonwebservices-plain",
+            "level": "75"
+          },
+          {
+            "name": "Jira",
+            "class": "devicon-jira-plain",
+            "level": "95"
+          },
+          {
+            "name": "Bitbucket",
+            "class": "devicon-bitbucket-original",
+            "level": "90"
+          },
+          {
+            "name": "Status Hero",
+            "img": "status-hero-logo.png",
+            "level": "90"
+          }
+        ]
+      },
+      {
+        "sectionName": "כלים",
+        "icons": [
+          {
+            "name": "GitHub",
+            "class": "devicon-github-original",
+            "level": "90"
+          },
+          {
+            "name": "Apache",
+            "class": "devicon-apache-plain",
+            "level": "90"
+          },
+          {
+            "name": "GIMP",
+            "class": "devicon-gimp-plain",
+            "level": "80"
+          }
+        ]
+      },
+      {
+        "sectionName": "מאגרי מידע",
+        "icons": [
+          {
+            "name": "MySQL",
+            "class": "devicon-mysql-plain",
+            "level": "80"
+          },
+          {
+            "name": "MSSQL",
+            "img": "microsoft-sql-logo.png",
+            "level": "80"
+          }
+        ]
+      },
+      {
+        "sectionName": "מסגרות",
+        "icons": [
+          {
+            "name": "Vaadin",
+            "class": "fab fa-vaadin",
+            "level": "80"
+          },
+          {
+            "name": "ASP.NET MVC Core",
+            "img": "aspnet-mvn-core-logo.png",
+            "level": "60"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-original",
+            "level": "40"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "",
+      "startDate": "",
+      "description": "",
+      "images": [
+        "images/portfolio/test/test.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "NamSys Inc | מרץ 2018 - היום",
+      "title": "Senior Full-Stack Developer",
+      "years": "",
+      "techIcon": "devicon-java-plain",
+      "mainTech": [
+        "Java 8"
+      ],
+      "technologies": [
+        "Java",
+        "AWS",
+        "Vaadin",
+        "REST API",
+        "Twilio",
+        "MSSQL",
+        "MySQL",
+        "SOC 2",
+        "Jira",
+        "Bitbucket",
+        "Status Hero",
+        "GIMP"
+      ],
+      "points": [
+        "מוביל פיתוח תכונות וטכנולוגיות מבוקשות עבור תוכנת ניהול כספת מזומנים באמצעות Java, ספריות ומסגרות כגון Twilio ו-Vaadin, בסביבת עבודה מאושרת SOC 2.",
+        "מספק תמיכה טכנית מלאה על ידי תקשורת עם לקוחות ואבחון בעיות באמצעות תוכנת גישה מרחוק לשיפור שביעות רצון הלקוחות.",
+        "מכשיר עובדים חדשים תוך שימוש במשאבים ומסמכים שיצרתי במהלך תקופת הלמידה שלי כדי ליצור סביבת עבודה נעימה ומיומנת.",
+        "מארגן ועוקב אחר פיתוח תוכנה באמצעות פגישות וכלים יומיומיים כגון Jira ו-Status Hero כדי למקסם את הפרודוקטיביות."
+      ]
+    },
+    {
+      "company": "PrimeTree | פברואר 2017 - מרץ 2018",
+      "title": "Lead Software Developer",
+      "years": "",
+      "techIcon": "devicon-csharp-plain",
+      "mainTech": [
+        "C#"
+      ],
+      "technologies": [
+        "C#",
+        ".NET MVC Core",
+        "JavaScript",
+        "Bootstrap",
+        "EF Core",
+        "MSSQL",
+        "Trello"
+      ],
+      "points": [
+        "בניתי יישום אינטרנט באמצעות C#, ASP.NET Core, MSSQL ו-JavaScript כדי לענות על הצורך של שוק היעד.",
+        "תרגמתי את דרישות השימוש ליעדי פיתוח תוכנה ופרויקטים בשיתוף עם מוביל החברה על מנת לייעל ולהאיץ את הפיתוח."
+      ]
+    }
+  ]
+}

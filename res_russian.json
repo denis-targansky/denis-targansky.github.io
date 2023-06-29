@@ -1,0 +1,188 @@
+{
+  "basic_info": {
+    "name": "Денис Тарганский",
+    "description_header": "Здравствуйте!",
+    "description": "Меня зовут Денис Тарганский, я Senior full-stack Java-разработчик с навыком работы в AWS, Vaadin, Jira и Bitbucket. Я обладаю обширными знаниями и опытом разработки масштабируемых и высокопроизводительных веб-приложений и клиент-серверных приложений. Участвую в разработке и осуществлении сложных проектов. Все заказы выполняю в срок и в рамках бюджета. Как преданный своему делу профессионал, я всегда стремлюсь оставаться на шаг впереди в постоянно развивающейся технологической отрасли. Изучение новейших достижений и современных инноваций позволяют мне предложить нестандартные идеи для моих клиентов. Независимо от того, работаю ли я в одиночку или в составе команды, я могу привнести свои знания и опыт в каждый проект, за который берусь. В свободное от работы время, люблю играть в волейбол или в Dungeons and Dragons с друзьями. Мне также интересно заниматься 3D-моделированием и печатью.",
+    "section_name": {
+      "language": "Языки",
+      "about": "Обо мне",
+      "projects": "Проекты",
+      "skills": "Навыки",
+      "experience": "Опыт"
+    }
+  },
+  "skills": {
+    "sections": [
+      {
+        "sectionName": "Языки Программирования",
+        "icons": [
+          {
+            "name": "Java",
+            "class": "devicon-java-plain",
+            "level": "100"
+          },
+          {
+            "name": "C#",
+            "class": "devicon-csharp-plain",
+            "level": "65"
+          },
+          {
+            "name": "JavaScript",
+            "class": "devicon-javascript-plain",
+            "level": "60"
+          }
+        ]
+      },
+      {
+        "sectionName": "Услуги",
+        "icons": [
+          {
+            "name": "AWS",
+            "class": "devicon-amazonwebservices-plain",
+            "level": "75"
+          },
+          {
+            "name": "Jira",
+            "class": "devicon-jira-plain",
+            "level": "95"
+          },
+          {
+            "name": "Bitbucket",
+            "class": "devicon-bitbucket-original",
+            "level": "90"
+          },
+          {
+            "name": "Status Hero",
+            "img": "status-hero-logo.png",
+            "level": "90"
+          }
+        ]
+      },
+      {
+        "sectionName": "Инструменты",
+        "icons": [
+          {
+            "name": "GitHub",
+            "class": "devicon-github-original",
+            "level": "90"
+          },
+          {
+            "name": "Apache",
+            "class": "devicon-apache-plain",
+            "level": "90"
+          },
+          {
+            "name": "GIMP",
+            "class": "devicon-gimp-plain",
+            "level": "80"
+          }
+        ]
+      },
+      {
+        "sectionName": "Базы данных",
+        "icons": [
+          {
+            "name": "MySQL",
+            "class": "devicon-mysql-plain",
+            "level": "80"
+          },
+          {
+            "name": "MSSQL",
+            "img": "microsoft-sql-logo.png",
+            "level": "80"
+          }
+        ]
+      },
+      {
+        "sectionName": "Фреймворки",
+        "icons": [
+          {
+            "name": "Vaadin",
+            "class": "fab fa-vaadin",
+            "level": "80"
+          },
+          {
+            "name": "ASP.NET MVC Core",
+            "img": "aspnet-mvn-core-logo.png",
+            "level": "60"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-original",
+            "level": "40"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "",
+      "startDate": "",
+      "description": "",
+      "images": [
+        "images/portfolio/test/test.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "NamSys Inc | март 2018 г. - настоящее время",
+      "title": "Senior Full-Stack Developer",
+      "years": "",
+      "techIcon": "devicon-java-plain",
+      "mainTech": [
+        "Java 8"
+      ],
+      "technologies": [
+        "Java",
+        "AWS",
+        "Vaadin",
+        "REST API",
+        "Twilio",
+        "MSSQL",
+        "MySQL",
+        "SOC 2",
+        "Jira",
+        "Bitbucket",
+        "Status Hero",
+        "GIMP"
+      ],
+      "points": [
+        "Возглавьте разработку требуемых функций и технологий для программного обеспечения для управления хранилищем наличных с использованием Java, библиотек и фреймворков, таких как Twilio и Vaadin, в сертифицированной рабочей среде SOC 2.",
+        "Предоставляйте полную техническую поддержку, общаясь с клиентами и диагностируя проблемы с помощью программного обеспечения для удаленного доступа, чтобы повысить удовлетворенность клиентов.",
+        "Принимайте на работу и обучайте недавно принятых на работу выпускников, используя ресурсы и документы, которые я создал в период обучения, чтобы создать приятную и профессиональную рабочую среду.",
+        "Организовывайте и отслеживайте разработку программного обеспечения с помощью ежедневных совещаний и таких инструментов, как Jira и Status Hero, чтобы максимизировать производительность."
+      ]
+    },
+    {
+      "company": "PrimeTree | февраль 2017 г. - март 2018 г.",
+      "title": "Lead Software Developer",
+      "years": "",
+      "techIcon": "devicon-csharp-plain",
+      "mainTech": [
+        "C#"
+      ],
+      "technologies": [
+        "C#",
+        ".NET MVC Core",
+        "JavaScript",
+        "Bootstrap",
+        "EF Core",
+        "MSSQL",
+        "Trello"
+      ],
+      "points": [
+        "Создал веб-приложение с использованием C#, ASP.NET Core, MSSQL и JavaScript для удовлетворения потребностей предполагаемого целевого рынка.",
+        "Преобразование требований использования в цели и проекты разработки программного обеспечения в сотрудничестве с руководителем компании для оптимизации и ускорения разработки."
+      ]
+    }
+  ]
+}

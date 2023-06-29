@@ -1,0 +1,19 @@
+{
+    "basic_info": {
+      "titles": [ "Senior Full-Stack Developer", "FinTech", "Java", "SQL", "AWS", "REST API", "Vaadin", "C#", "Vaadin", "Bitbucket", "Status Hero", "Agile" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/denis-targansky",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/denis-targansky/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "myProfile.jpg",
+      "logo": "logo.png"
+    }
+  }
