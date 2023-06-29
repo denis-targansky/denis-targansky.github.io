@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import $ from "jquery";
 
 class Header extends Component {
   titles = [];
@@ -29,13 +28,13 @@ class Header extends Component {
     this.swapCurrentlyActiveLanguage(pickedLanguageIconId);
     var languagePath;
     var direction;
-    if (pickedLanguage == window.$englishLanguage) {
+    if (pickedLanguage === window.$englishLanguage) {
       languagePath = `res_english.json`;
       direction = "ltr";
-    } else if (pickedLanguage == window.$hebrewLanguage) {
+    } else if (pickedLanguage === window.$hebrewLanguage) {
       languagePath = `res_hebrew.json`;
       direction = "rtl";
-    } else if (pickedLanguage == window.$russianLanguage) {
+    } else if (pickedLanguage === window.$russianLanguage) {
       languagePath = `res_russian.json`;
       direction = "ltr";
     }
@@ -78,7 +77,6 @@ class Header extends Component {
 
   render() {
     if (this.props.sharedBasicInfo) {
-      var logo = "images/" + this.props.sharedBasicInfo.logo;
       this.titles = this.props.sharedBasicInfo.titles.map(x => [x.toUpperCase(), 1500]).flat();
     }
 
