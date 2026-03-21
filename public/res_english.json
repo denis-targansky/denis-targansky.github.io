@@ -2,7 +2,7 @@
     "basic_info": {
       "name": "Denis Targansky",
       "description_header": "Hello!",
-      "description": "My name is Denis Targansky, and I'm a senior full-stack Java developer with experience in AWS, Vaadin, Jira, and Bitbucket. I have years of experience in developing scalable and high-performance web and client/server applications, with a proven track record of delivering complex projects on time and within budget. When not coding, you may find me playing volleyball or sitting down for a game of Dungeons and Dragons with friends. I am also an avid 3D printing enthusiast and love exploring the latest innovations in the tech world. As a dedicated professional, I am always looking to stay ahead of the curve in the ever-evolving tech industry. I am committed to staying up-to-date on the latest technologies and best practices to provide the best solutions for my clients. Whether working solo or as part of a team, I can bring a wealth of knowledge and experience to every project I undertake.",
+      "description": "I’m a Senior Software Developer specializing in cloud-native, backend-focused systems built with Java and AWS. I have over 7 years of experience designing and scaling secure, high-availability applications in fintech environments, with a strong focus on API architecture, distributed systems, and system reliability. My work has supported platforms serving thousands of daily users, where performance, uptime, and security are critical.\n\nI’ve led the development of new system modules, modernized legacy applications into more maintainable architectures, and improved system performance through concurrency, observability, and deployment optimizations. I’m also experienced in mentoring developers and leading cross-functional initiatives across fully remote teams, helping align technical solutions with business goals.\n\nOutside of work, I enjoy volleyball, tabletop gaming (especially Dungeons & Dragons), and 3D printing, where I like experimenting with new ideas and technologies. I’m naturally curious and continuously learning, always looking for better ways to build scalable, efficient, and future-ready systems.",
       "section_name": {
         "language": "Languages",
         "about": "About me",
@@ -20,6 +20,11 @@
               "name": "Java",
               "class": "devicon-java-plain",
               "level": "100"
+            },
+            {
+              "name": "Python",
+              "class": "devicon-python-plain",
+              "level": "75"
             },
             {
               "name": "C#",
@@ -49,11 +54,6 @@
             {
               "name": "Bitbucket",
               "class": "devicon-bitbucket-original",
-              "level": "90"
-            },
-            {
-              "name": "Status Hero",
-              "img": "status-hero-logo.png",
               "level": "90"
             }
           ]
@@ -134,12 +134,12 @@
     ],
     "experience": [
       {
-        "company": "NamSys Inc. | March 2018 - Present",
-        "title": "Senior Full-Stack Developer",
+        "company": "NamSys Inc. | 2022 - Present",
+        "title": "Senior Software Developer",
         "years": "",
         "techIcon": "devicon-java-plain",
         "mainTech": [
-          "Java 8"
+          "Java"
         ],
         "technologies": [
           "Java",
@@ -152,18 +152,47 @@
           "SOC 2",
           "Jira",
           "Bitbucket",
-          "Status Hero",
           "GIMP"
         ],
         "points": [
-          "Spearhead development of requested features and technologies for cash vault management software using Java, libraries, and frameworks such as Twilio and Vaadin, in an SOC 2 certified work environment.",
-          "Provide full technical support by communicating with customers and diagnosing issues using remote access software to improve customer satisfaction.",
-          "Onboard and train newly hired graduates using resources and documents I created during my learning period to create a pleasant and proficient working environment.",
-          "Organize and track software development through daily meetings and tools such as Jira and Status Hero to maximize productivity."
+          "Architected and built extensible RESTful APIs supporting web, mobile, and third-party integrations, eliminating rework and saving 4–6 weeks of future development across multiple feature expansions.",
+          "Led development of all newly introduced system modules, transitioning legacy monolithic components toward modular, maintainable architecture.",
+          "Refactored synchronous third-party API execution to asynchronous, multi-threaded processing, reducing user-blocking operations by ~80% and improving transaction throughput by ~35%.",
+          "Improved deployment workflows, reducing downtime from 30+ minutes to 2–5 minutes through automated pre-update validation and safer rollout practices.",
+          "Implemented structured logging and centralized AWS CloudWatch monitoring with proactive memory alerts and thread diagnostics, improving uptime to ~99.95%.",
+          "Developed selective hot-fix methodology enabling component-level patching, reducing incident resolution time by ~40%.",
+          "Remediated 100+ security vulnerabilities using Snyk, upgrading or replacing unsupported dependencies while maintaining SOC 2 compliance.",
+          "Served as senior escalation point for complex production issues, conducting deep SQL and concurrency debugging.",
+          "Mentored and onboarded 5+ junior and intermediate developers, improving code review turnaround by 30%, and increasing overall team delivery velocity through established coding standards and architectural guidance.",
+          "Led cross-functional initiatives across fully remote teams, aligning product, operations, and engineering stakeholders across multiple time zones, reducing requirement-related rework by ~35%."
         ]
       },
       {
-        "company": "PrimeTree | Feb 2017 - March 2018",
+        "company": "NamSys Inc. | 2018 - 2022",
+        "title": "Software Developer",
+        "years": "",
+        "techIcon": "devicon-java-plain",
+        "mainTech": [
+          "Java"
+        ],
+        "technologies": [
+          "Java",
+          "Vaadin",
+          "MSSQL",
+          "MySQL",
+          "Jira",
+          "Bitbucket"
+        ],
+        "points": [
+          "Modernized legacy Java applications using updated architecture patterns and Vaadin frameworks, improving maintainability and extending system lifecycle.",
+          "Designed and implemented scalable data ingestion pipelines using AWS SQS and API-driven integrations, reducing manual reconciliation errors by ~30%.",
+          "Built a flexible data-merging framework preserving auditability and regulatory integrity during customer migrations.",
+          "Optimized web session memory management, preventing infrastructure upscaling and reducing projected AWS memory costs by ~20%.",
+          "Collaborated directly with product and operations stakeholders to translate complex financial and regulatory requirements into scalable solutions."
+        ]
+      },
+      {
+        "company": "PrimeTree | 2017 - 2018",
         "title": "Lead Software Developer",
         "years": "",
         "techIcon": "devicon-csharp-plain",
@@ -180,8 +209,9 @@
           "Trello"
         ],
         "points": [
-          "Built a web application using C#, ASP.NET Core, MSSQL, and JavaScript to meet a need of the intended target market.",
-          "Translated usage requirements into software development goals and projects in cooperation with company leader in order to streamline and accelerate development."
+          "Designed and developed full-stack web application using C#, ASP.NET Core, MSSQL, and JavaScript.",
+          "Translated business requirements into technical architecture and delivery plans.",
+          "Accelerated development cycles through structured Agile implementation."
         ]
       }
     ]
